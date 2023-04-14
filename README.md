@@ -45,4 +45,4 @@ The [Workout Detection and Repetition counts](./notebooks/Workout_detection_and_
 ## Reference
 - post detection at https://www.analyticsvidhya.com      
 
--[WASI AHMED](https://github.com/wasiongit/omdena-workout-project)
+- [WASI AHMED](https://github.com/wasiongit/omdena-workout-project)
