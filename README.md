@@ -1,6 +1,6 @@
 # Pose Detection
 
-The * [Posture Detection on images](./notebooks/posture_detection_on_images_using_mediapipe.ipynb) notebook:
+The [Posture Detection on images](./notebooks/posture_detection_on_images_using_mediapipe.ipynb) notebook:
 
 1. Takes in a copy of an original image, then converts the Blue Green Red format to Red Green Blue format as in computer vision which is widely used.
 
@@ -15,7 +15,7 @@ The * [Posture Detection on images](./notebooks/posture_detection_on_images_usin
 6. Tests the function `detectPose()` created to perform pose detection on a sample image and display the results.
 
 
-The * [Posture Detection on videos](./notebooks/posture_detection_on_videos_using_mediapipe.ipynb)
+The [Posture Detection on videos](./notebooks/posture_detection_on_videos_using_mediapipe.ipynb)
 notebook:
 
 - Reads an input video frame-by-frame and applies pose detection with the `detectPose()` fuction from the above notebook.
@@ -23,11 +23,11 @@ notebook:
 
 # Workout Detection and Repetition counts on videos.
 
-The * [Workout Detection and Repetition counts](./notebooks/Workout_detection_and_repetition_counts_on_videos.ipynb) notebook:
+The [Workout Detection and Repetition counts](./notebooks/Workout_detection_and_repetition_counts_on_videos.ipynb) notebook:
 
 1. Recognizes and classifies poses on images using the K-Nearest Neighbor algorithm. This model was trained with lunges-up-and-lunges-down-images dataset, but can also be trained with other kinds of workout images.
 
-2. Runs a `dump_for_the_app()` function that covert the drawing landmarks of the classified images into a csv file. This csv file is to be used for building pose detection and repetition count application. All credit goes to * [WASI AHMED](https://github.com/wasiongit/omdena-workout-project), strong and active collaborator on the Omdena-Singapore-AI-Powered-Workout Project. 
+2. Runs a `dump_for_the_app()` function that covert the drawing landmarks of the classified images into a csv file. This csv file is to be used for building pose detection and repetition count application. All credit goes to [WASI AHMED](https://github.com/wasiongit/omdena-workout-project), strong and active collaborator on the Omdena-Singapore-AI-Powered-Workout Project. 
 
 3. Detection and repetiont count on videos.
 
@@ -43,5 +43,6 @@ The * [Workout Detection and Repetition counts](./notebooks/Workout_detection_an
 - mediapipe
 
 ## Reference
-- post detection at https://www.analyticsvidhya.com
+- post detection at https://www.analyticsvidhya.com      
+
 -[WASI AHMED](https://github.com/wasiongit/omdena-workout-project)
