@@ -27,7 +27,7 @@ The [Workout Detection and Repetition counts](./notebooks/Workout_detection_and_
 
 1. Recognizes and classifies poses on images using the K-Nearest Neighbor algorithm. This model was trained with lunges-up-and-lunges-down-images dataset, but can also be trained with other kinds of workout images.
 
-2. Runs a `dump_for_the_app()` function that covert the drawing landmarks of the classified images into a csv file. This csv file is to be used for building pose detection and repetition count application. All credit goes to [WASI AHMED](https://github.com/wasiongit/omdena-workout-project), strong and active collaborator on the Omdena-Singapore-AI-Powered-Workout Project. 
+2. Runs a `dump_for_the_app()` function that covert the drawing landmarks of the classified images into a csv file. This csv file is to be used for building pose detection and repetition count application. All credit goes to [WASI AHMED](https://github.com/wasiongit/omdena-workout-project) on this part, a strong and active collaborator on the Omdena-Singapore-AI-Powered-Workout Project. 
 
 3. Detection and repetiont count on videos.
 
